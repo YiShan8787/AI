@@ -1,0 +1,27 @@
+﻿已經開始建置於 2019/3/20 下午 05:15:55。
+     1>節點 2 (build 目標) 上的專案 "D:\VC2010_Projects\ai_project1_part2\gapNumber\gapNumber.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\gapNumber.unsuccessfulbuild"。
+       ClCompile:
+         D:\visual2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\vc2010_projects\ai_project1_part2\gapnumber\main.cpp(32): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual2010\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+     1>d:\vc2010_projects\ai_project1_part2\gapnumber\main.cpp(39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual2010\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+     1>d:\vc2010_projects\ai_project1_part2\gapnumber\main.cpp(42): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual2010\vc\include\stdio.h(304) : 請參閱 'scanf' 的宣告
+       Link:
+         D:\visual2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VC2010_Projects\ai_project1_part2\gapNumber\Debug\gapNumber.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\gapNumber.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\VC2010_Projects\ai_project1_part2\gapNumber\Debug\gapNumber.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VC2010_Projects\ai_project1_part2\gapNumber\Debug\gapNumber.lib" /MACHINE:X86 Debug\main.obj
+         LINK : 最後的累加連結找不到或未建置 D:\VC2010_Projects\ai_project1_part2\gapNumber\Debug\gapNumber.exe，正在執行完整連結
+         gapNumber.vcxproj -> D:\VC2010_Projects\ai_project1_part2\gapNumber\Debug\gapNumber.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\VC2010_Projects\ai_project1_part2\gapNumber\Debug\gapNumber.exe;#1" /manifest Debug\gapNumber.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\gapNumber.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\gapNumber.lastbuildstate"。
+     1>專案 "D:\VC2010_Projects\ai_project1_part2\gapNumber\gapNumber.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.66
